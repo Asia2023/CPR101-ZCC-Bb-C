@@ -1,0 +1,216 @@
+1 - Fundamentals
+2 - Manipulation
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run?
+1
+*** Start of Indexing Strings Demo ***
+Type not empty string (q - to quit):
+Captain america
+Type the character position within the string:
+7
+The character found at 7 position is ' '
+Type not empty string (q - to quit):
+superman
+Type the character position within the string:
+3
+The character found at 3 position is 'e'
+Type not empty string (q - to quit):
+9
+Type not empty string (q - to quit):
+q
+***End of Indexing Strings Demo ***
+
+*** Start of Measuring Strings Demo ***
+Type a string (q - to quit):
+Computer Principles
+The length of 'Computer Principles' is 19 characters
+Type a string (q - to quit):
+c
+The length of 'c' is 1 characters
+Type a string (q - to quit):
+This is a very long sentence to validate the length of the input string. How many characters do you think is in this sentence?
+The length of 'This is a very long sentence to validate the length of the input string. How m' is 78 characters
+Type a string (q - to quit):
+The length of 'ny characters do you think is in this sentence?' is 47 characters
+Type a string (q - to quit):
+lets try numbers: 78641731964324547624
+The length of 'lets try numbers: 78641731964324547624' is 38 characters
+Type a string (q - to quit):
+1
+The length of '1' is 1 characters
+Type a string (q - to quit):
+-1
+The length of '-1' is 2 characters
+Type a string (q - to quit):
+18927333777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777
+The length of '189273337777777777777777777777777777777777777777777777777777777777777777777777' is 78 characters
+Type a string (q - to quit):
+The length of '7777777777777777777777777777777777' is 34 characters
+Type a string (q - to quit):
+q
+** End of Measuring Strings Demo ***
+
+
+
+1 - Fundamentals
+2 - Manipulation
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run?
+2
+*** Start of Concatenating Strings Demo ***
+Type the 1st string (q - to quit):
+9851
+Type the 2nd string;
+08376
+Concatenated string is '985108376'
+Type the 1st string (q - to quit):
+2003
+Type the 2nd string;
+asia
+Concatenated string is '2003asia'
+Type the 1st string (q - to quit):
+Namaste
+Type the 2nd string;
+everyone
+Concatenated string is 'Namasteeveryone'
+Type the 1st string (q - to quit):
+q
+*** End of Concatenating Strings Demo ***
+
+*** Start of Comparing strings Demo ***
+Type the 1st string to compare (q - to quit) : 
+Asia
+Type the 2nd string to compare: 
+Europe
+'Asia' string is less than 'Europe'
+Type the 1st string to compare (q - to quit) : 
+12
+Type the 2nd string to compare: 
+21
+'12' string is less than '21'
+Type the 1st string to compare (q - to quit) : 
+q
+*** End of Comparing Strings Demo ***
+
+
+
+1 - Fundamentals
+2 - Manipulation
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run?
+3
+*** Start of Converting Strings to int Demo ***
+Type an int numeric string (q - to quit):
+1.234
+Converted number is 1
+Type an int numeric string (q - to quit):
+11111111111
+Converted number is 2147483647
+Type an int numeric string (q - to quit):
+
+Converted number is 0
+Type an int numeric string (q - to quit):
+abcdefg
+Converted number is 0
+Type an int numeric string (q - to quit):
+ab1234
+Converted number is 0
+Type an int numeric string (q - to quit):
+q
+Converted number is 0
+*** End of Converting Strings to int Demo ***
+
+*** Start of Converting Strings to double Demo ***
+Type the double numeric string (q - to quit):
+ab
+Converted number is 0.000000
+Type the double numeric string (q - to quit):
+11111111111111111111
+Converted number is 11111111111111110656.000000
+Type the double numeric string (q - to quit):
+1.234
+Converted number is 1.234000
+Type the double numeric string (q - to quit):
+1.1234567
+Converted number is 1.123457
+Type the double numeric string (q - to quit):
+1.1234517
+Converted number is 1.123452
+Type the double numeric string (q - to quit):
+1.1234511
+Converted number is 1.123451
+Type the double numeric string (q - to quit):
+2.999999
+Converted number is 2.999999
+Type the double numeric string (q - to quit):
+q
+*** End of Converting Strings to double Demo ***
+
+
+
+1 - Fundamentals
+2 - Manipulation
+3 - Converting
+4 - Tokenizing
+0 - Exit
+Which module to run?
+4
+*** Start of Tokenizing Words Demo *** 
+Type a few words separated by space (q - to quit): 
+  Africa
+Word #1 is 'Africa'
+Type a few words separated by space (q - to quit): 
+Barbados is an island
+Word #1 is 'Barbados'
+Word #2 is 'is'
+Word #3 is 'an'
+Word #4 is 'island'
+Type a few words separated by space (q - to quit): 
+
+Type a few words separated by space (q - to quit): 
+DkungthepmahanakhonAmonrattanakosinMahintharayutthayaMahadilokphopNoppharatratchathaniburiromUdomratchaniwetmahasathanAmnphimanawatansathitSakkathattiyawitsanukamait
+Word #1 is 'DkungthepmahanakhonAmonrattanakosinMahintharayutthayaMahadilokphopNoppharatratchathaniburiromUdomratchaniwetmahasathanAmnphimanawatansathitSakkathattiyawitsanukamait'
+Type a few words separated by space (q - to quit): 
+q
+*** End of Tokenizing Words Demo ***
+
+*** Start of Tokenizing Phrases Demo ***
+Type a few phrases separated by comma (q- to quit) : 
+Canada,is, a cold, country
+Phrase #1 is 'Canada'
+Phrase #2 is 'is'
+Phrase #3 is ' a cold'
+Phrase #4 is ' country'
+Type a few phrases separated by comma (q- to quit) : 
+
+Type a few phrases separated by comma (q- to quit) : 
+q
+*** End of Tokenizing Phrases Demo ***
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
