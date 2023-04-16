@@ -1,0 +1,42 @@
+*** Start of Concatenating Strings Demo ***Type the 1st string (q - to quit):9851Type the 2nd string;08376Concatenated string is '985108376'Type the 1st string (q - to quit):2003Type the 2nd string;asiaConcatenated string is '2003asia'Type the 1st string (q - to quit):NamasteType the 2nd string;everyoneConcatenated string is 'Namasteeveryone'Type the 1st string (q - to quit):I am fromType the 2nd string;NepalConcatenated string is 'I am fromNepal'Type the 1st string (q - to quit):I hope youType the 2nd string;are okayConcatenated string is 'I hope youare okay'Type the 1st string (q - to quit):Canada is coldType the 2nd string;but I like itConcatenated string is 'Canada is coldbut I like it'Type the 1st string (q - to quit):18 + 1Type the 2nd string;is 19Concatenated string is '18 + 1is 19'Type the 1st string (q - to quit):q*** End of Concatenating Strings Demo ***
+
+
+*** Start of Comparing strings Demo ***
+Type the 1st string to compare (q - to quit) : 
+Asia
+Type the 2nd string to compare: 
+Europe
+'Asia' string is less than 'Europe'
+Type the 1st string to compare (q - to quit) : 
+12
+Type the 2nd string to compare: 
+21
+'12' string is less than '21'
+Type the 1st string to compare (q - to quit) : 
+q
+*** End of Comparing Strings Demo ***
+
+*** start of searching strings Demo ***
+Type the string (q - to quit): 
+abcdefghijklmnopqrstuvw
+Type the substring: 
+def
+'def' found at 3 position
+Type the string (q - to quit): 
+aaa bbb ccc ddd eee fff ggg hhh iii
+Type the substring: 
+cccc
+Not found
+Type the string (q - to quit): 
+cc
+Type the substring: 
+aaa bbb ccc ddd eee fff ggg hhh iii
+Not found
+Type the string (q - to quit): 
+aaa bbb aaa ccc ddd eee aaa
+Type the substring: 
+b
+'b' found at 4 position
+Type the string (q - to quit): 
+q
+*** End of Searching Strings Demo ***
