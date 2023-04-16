@@ -1,9 +1,8 @@
-
 //Name : Asia Karki
 //Class: ZCC
 //Student ID: 112690227
 
-#define _CRT_SECURE_NO_WARNINGS
+#define _CRT_SECURE_NO_WARNINGS 
 #define BUFFER_SIZE 300
 #include "tokenizing.h" //include the tokenizing header file so we can call it
 int main() {
@@ -15,7 +14,7 @@ void tokenizing(void)
     printf("*** Start of Tokenizing Words Demo *** \n");// display the sentence in the middle and declare the variables below
     char  words[BUFFER_SIZE];// array of buffer size to store many bytes
     char* nextWord = NULL;
-    int  wordsCounter;
+    int  wordsCounter; 
     do
     {
         printf("Type a few words separated by space (q - to quit): \n");
@@ -37,24 +36,46 @@ void tokenizing(void)
 
 /* Version 2 */
 //>>insert here
-printf("*** Start of Tokenizing Phrases Demo ***\n"); //print statement
+printf("*** Start of Tokenizing Phrases Demo ***\n"); //print statement 
 char phrases [300];
-char*  nextPhrase = NULL; //declare char pointer
+char*  nextPhrase = NULL; //declare char pointer 
 int  phrasesCounter; //declare variable int type
 do {
  printf("Type a few phrases separated by comma (q- to quit) : \n");//print statement
    fgets (phrases, BUFFER_SIZE, stdin);
       phrases [strlen (phrases) -1] = '\0';
   if ((strcmp (phrases, "q") != 0)) { //while loop is used and it iterartes tillthe value of string phrases is equal to q
-         nextPhrase = strtok (phrases, ", ");// string library function is used to assign the value to string phrase
+         nextPhrase = strtok (phrases, ", ");// string library function is used to assign the value to string phrase 
            phrasesCounter = 1;
            while (nextPhrase) {
                 printf("Phrase #%d is \'%s\'\n", phrasesCounter++, nextPhrase) ;
                 nextPhrase = strtok (NULL, ",");
-          }
+          }  
      }
 } while (strcmp (phrases,"q") != 0);
 printf("*** End of Tokenizing Phrases Demo ***\n\n");
+
+
+
+/* Version 3 */
+printf ("*** Start of Tokenizing Sentences Demo ***\n");
+char sentences [BUFFER_SIZE]; //declare string phrase
+char* nextSentence = NULL; //declare char pointer
+int sentencesCounter; //declare variable int type
+do{
+printf ("Type a few sentences separated by dot (q - to quit): \n"); 
+fgets (sentences, BUFFER_SIZE, stdin); //this function get input from user
+sentences [strlen (sentences) -1] ='\0';
+if ((strcmp( sentences,"q") != 0)){
+nextSentence = strtok (sentences, "."); //searches for a separator
+sentencesCounter = 1;
+while (nextSentence){
+printf ("Senetnce #%d is \'%s\'\n", sentencesCounter++, nextSentence);
+nextSentence = strtok (NULL, ".");//function searches for a separator string within a larger string
+ }
+ }
+ } while (strcmp (sentences,"q") != 0);
+printf ("*** End of Tokenizing Sentences Demo ***\n\n");
 
 }
 
