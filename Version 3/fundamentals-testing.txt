@@ -1,0 +1,39 @@
+*** Start of Indexing Strings Demo ***
+Type not empty string (q - to quit):
+1
+Type the character position within the string:
+1
+Too big... Position reduced to max. availbale
+The character found at 0 position is '1'
+Type not empty string (q - to quit):
+q
+***End of Indexing Strings Demo ***
+
+*** Start of Measuring Strings Demo ***
+Type a string (q - to quit):
+23
+The length of '23' is 2 characters
+Type a string (q - to quit):
+q
+** End of Measuring Strings Demo ***
+
+*** Start of Copying strings Demo ***
+Destination string is reset to empty
+Type the source string (q - to quit):
+Toronto
+New destination string is 'Toronto'
+Destination string is reset to empty
+Type the source string (q - to quit):
+Let us try a longer strong with numbers23
+New destination string is 'Let us try a longer strong with numbers23'
+Destination string is reset to empty
+Type the source string (q - to quit):
+This is a very very very very long string that will be used to validate the upper boundaries of this version
+New destination string is 'This is a very very very very long string that will be used to validate the up'
+Destination string is reset to empty
+Type the source string (q - to quit):
+New destination string is 'er boundaries of this version '
+Destination string is reset to empty
+Type the source string (q - to quit):
+q
+*** End of Copying Strings Demo ***
